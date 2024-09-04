@@ -7,20 +7,21 @@
     // Constructor para inicializar el vector con tres componentes
     public Vector3D(double x, double y, double z)
     {
-        X = x;
-        Y = y;
+        X = x; 
+        Y = y; 
         Z = z;
     }
+
     // Método para sumar dos vectores
-    public Vector3D Sumar(Vector3D otro)
+    public Vector3D Sumar(Vector3D v)
     {
-        return new Vector3D(X + otro.X, Y + otro.Y, Z + otro.Z);
+        return new Vector3D(X +  v.X, Y + v.Y, Z + v.Z);
     }
 
     // Método para calcular el producto escalar
-    public double ProductoEscalar(Vector3D otro)
+    public double ProductoEscalar(Vector3D v)
     {
-        return X * otro.X + Y * otro.Y + Z * otro.Z;
+        return X * v.X + Y * v.Y + Z * v.Z;
     }
 
     // Método para representar el vector como una cadena de texto
