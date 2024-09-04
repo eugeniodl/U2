@@ -18,13 +18,13 @@
             saldo += cantidad;
             Console.WriteLine($"Se han depositado {cantidad:C} en la cuenta " +
                 $"{numeroCuenta}. Nuevo saldo: {saldo:C}");
-        }        
+        }
     }
 
     // Método para retirar dinero de la cuenta
     public void Retirar(decimal cantidad)
     {
-        if(cantidad > 0 && cantidad <= saldo)
+        if(cantidad > 0 && cantidad <= saldo) 
         {
             saldo -= cantidad;
             Console.WriteLine($"Se han retirado {cantidad:C} en la cuenta " +
@@ -32,7 +32,7 @@
         }
         else
         {
-            Console.WriteLine("Fondos insuficientes o cantidad inválida.");
+            Console.WriteLine("Fondos insuficientes o cantidad inválida");
         }
     }
 
@@ -41,5 +41,6 @@
     { 
         return saldo; 
     }
+
 }
 
