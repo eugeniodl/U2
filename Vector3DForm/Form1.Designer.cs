@@ -43,7 +43,6 @@
             btnSumar = new Button();
             btnProductoEscalar = new Button();
             lblResultado = new Label();
-            groupBox1 = new GroupBox();
             SuspendLayout();
             // 
             // label1
@@ -180,21 +179,11 @@
             lblResultado.TabIndex = 14;
             lblResultado.Text = "label7";
             // 
-            // groupBox1
-            // 
-            groupBox1.Location = new Point(398, 236);
-            groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(200, 100);
-            groupBox1.TabIndex = 15;
-            groupBox1.TabStop = false;
-            groupBox1.Text = "groupBox1";
-            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(571, 415);
-            Controls.Add(groupBox1);
             Controls.Add(lblResultado);
             Controls.Add(btnProductoEscalar);
             Controls.Add(btnSumar);
@@ -232,6 +221,5 @@
         private Button btnSumar;
         private Button btnProductoEscalar;
         private Label lblResultado;
-        private GroupBox groupBox1;
     }
 }
