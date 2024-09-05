@@ -2,3 +2,8 @@
 cuenta.Depositar(1500m);
 cuenta.Retirar(3000m);
 Console.WriteLine($"Saldo final: {cuenta.ConsultarSaldo():C}");
+
+var calculos = new CuentaBancaria.CalculosFinancieros();
+calculos.AplicarIntereses(cuenta, 0.05m);
+
+Console.WriteLine($"Saldo final: {cuenta.ConsultarSaldo():C}");

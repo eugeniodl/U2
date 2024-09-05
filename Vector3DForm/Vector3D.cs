@@ -23,7 +23,7 @@
     {
         return X * otro.X + Y * otro.Y + Z * otro.Z;
     }
-
+    
     // Método para representar el vector como una cadena de texto
     public override string ToString()
     {
