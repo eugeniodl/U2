@@ -10,6 +10,21 @@
         saldo = saldoInicial;
     }
 
+    // Clase anidada que maneja cálculos financieros
+    public class CalculosFinancieros
+    {
+        public decimal CalcularInteres(CuentaBancaria cuenta, decimal tasa)
+        {
+            return cuenta.saldo * tasa;
+        }
+
+        public void AplicarInteres(CuentaBancaria cuenta, decimal tasa)
+        {
+            decimal intereses = CalcularInteres(cuenta, tasa);
+            cuenta.saldo += intereses;
+        }
+    }
+
     // Método para depositar dinero en la cuenta
     public void Depositar(decimal cantidad)
     {

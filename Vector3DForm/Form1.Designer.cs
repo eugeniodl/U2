@@ -156,6 +156,7 @@
             btnSumar.TabIndex = 12;
             btnSumar.Text = "Sumar";
             btnSumar.UseVisualStyleBackColor = true;
+            btnSumar.Click += btnSumar_Click;
             // 
             // btnProductoEscalar
             // 
@@ -166,6 +167,7 @@
             btnProductoEscalar.TabIndex = 13;
             btnProductoEscalar.Text = "Producto escalar";
             btnProductoEscalar.UseVisualStyleBackColor = true;
+            btnProductoEscalar.Click += btnProductoEscalar_Click;
             // 
             // lblResultado
             // 
