@@ -49,7 +49,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold | FontStyle.Underline, GraphicsUnit.Point);
-            label1.Location = new Point(423, 25);
+            label1.Location = new Point(348, 27);
             label1.Margin = new Padding(4, 0, 4, 0);
             label1.Name = "label1";
             label1.Size = new Size(143, 37);
@@ -114,7 +114,7 @@
             // txtV1X
             // 
             txtV1X.Location = new Point(290, 190);
-            txtV1X.Margin = new Padding(4, 4, 4, 4);
+            txtV1X.Margin = new Padding(4);
             txtV1X.Name = "txtV1X";
             txtV1X.Size = new Size(73, 29);
             txtV1X.TabIndex = 6;
@@ -122,7 +122,7 @@
             // txtV1Y
             // 
             txtV1Y.Location = new Point(513, 190);
-            txtV1Y.Margin = new Padding(4, 4, 4, 4);
+            txtV1Y.Margin = new Padding(4);
             txtV1Y.Name = "txtV1Y";
             txtV1Y.Size = new Size(73, 29);
             txtV1Y.TabIndex = 7;
@@ -130,7 +130,7 @@
             // txtV1Z
             // 
             txtV1Z.Location = new Point(735, 190);
-            txtV1Z.Margin = new Padding(4, 4, 4, 4);
+            txtV1Z.Margin = new Padding(4);
             txtV1Z.Name = "txtV1Z";
             txtV1Z.Size = new Size(73, 29);
             txtV1Z.TabIndex = 8;
@@ -138,7 +138,7 @@
             // txtV2Z
             // 
             txtV2Z.Location = new Point(735, 278);
-            txtV2Z.Margin = new Padding(4, 4, 4, 4);
+            txtV2Z.Margin = new Padding(4);
             txtV2Z.Name = "txtV2Z";
             txtV2Z.Size = new Size(73, 29);
             txtV2Z.TabIndex = 11;
@@ -146,7 +146,7 @@
             // txtV2Y
             // 
             txtV2Y.Location = new Point(513, 278);
-            txtV2Y.Margin = new Padding(4, 4, 4, 4);
+            txtV2Y.Margin = new Padding(4);
             txtV2Y.Name = "txtV2Y";
             txtV2Y.Size = new Size(73, 29);
             txtV2Y.TabIndex = 10;
@@ -154,35 +154,37 @@
             // txtV2X
             // 
             txtV2X.Location = new Point(290, 278);
-            txtV2X.Margin = new Padding(4, 4, 4, 4);
+            txtV2X.Margin = new Padding(4);
             txtV2X.Name = "txtV2X";
             txtV2X.Size = new Size(73, 29);
             txtV2X.TabIndex = 9;
             // 
             // btnSumar
             // 
-            btnSumar.Location = new Point(102, 414);
-            btnSumar.Margin = new Padding(4, 4, 4, 4);
+            btnSumar.Location = new Point(83, 365);
+            btnSumar.Margin = new Padding(4);
             btnSumar.Name = "btnSumar";
             btnSumar.Size = new Size(193, 50);
             btnSumar.TabIndex = 12;
             btnSumar.Text = "Sumar";
             btnSumar.UseVisualStyleBackColor = true;
+            btnSumar.Click += btnSumar_Click;
             // 
             // btnProductoEscalar
             // 
-            btnProductoEscalar.Location = new Point(102, 493);
-            btnProductoEscalar.Margin = new Padding(4, 4, 4, 4);
+            btnProductoEscalar.Location = new Point(83, 444);
+            btnProductoEscalar.Margin = new Padding(4);
             btnProductoEscalar.Name = "btnProductoEscalar";
             btnProductoEscalar.Size = new Size(193, 56);
             btnProductoEscalar.TabIndex = 13;
             btnProductoEscalar.Text = "Producto escalar";
             btnProductoEscalar.UseVisualStyleBackColor = true;
+            btnProductoEscalar.Click += btnProductoEscalar_Click;
             // 
             // lblResultado
             // 
             lblResultado.AutoSize = true;
-            lblResultado.Location = new Point(587, 429);
+            lblResultado.Location = new Point(469, 394);
             lblResultado.Name = "lblResultado";
             lblResultado.Size = new Size(57, 21);
             lblResultado.TabIndex = 14;
@@ -192,7 +194,7 @@
             // 
             AutoScaleDimensions = new SizeF(10F, 21F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(947, 643);
+            ClientSize = new Size(886, 536);
             Controls.Add(lblResultado);
             Controls.Add(btnProductoEscalar);
             Controls.Add(btnSumar);
@@ -209,7 +211,7 @@
             Controls.Add(label2);
             Controls.Add(label1);
             Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            Margin = new Padding(4, 4, 4, 4);
+            Margin = new Padding(4);
             Name = "Form1";
             ResumeLayout(false);
             PerformLayout();
