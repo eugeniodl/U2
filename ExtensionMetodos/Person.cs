@@ -13,7 +13,7 @@ public static class PersonExtensions
         int count = 0;
         foreach (Person person in people)
         {
-            if (person.Age <= minAge)
+            if (person.Age >= minAge)
                 count++;
         }
 
