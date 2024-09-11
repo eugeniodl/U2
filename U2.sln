@@ -3,11 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34024.191
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CuentaBancaria", "CuentaBancaria\CuentaBancaria.csproj", "{E6F24D21-3037-4133-8213-AB5942F5794E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CuentaBancaria", "CuentaBancaria\CuentaBancaria.csproj", "{E6F24D21-3037-4133-8213-AB5942F5794E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Empleado", "Empleado\Empleado.csproj", "{D32EBB0E-3BD5-4CAD-9C9C-5AC79654A39B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Empleado", "Empleado\Empleado.csproj", "{D32EBB0E-3BD5-4CAD-9C9C-5AC79654A39B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vector3DForm", "Vector3DForm\Vector3DForm.csproj", "{8FA6D2F4-DFA4-4B68-AC27-AAD639462064}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vector3DForm", "Vector3DForm\Vector3DForm.csproj", "{8FA6D2F4-DFA4-4B68-AC27-AAD639462064}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClasesMetodosEstaticos", "ClasesMetodosEstaticos\ClasesMetodosEstaticos.csproj", "{7B13C93C-A660-4145-A8B5-89BACCA6363E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClasesParciales", "ClasesParciales\ClasesParciales.csproj", "{2CA98308-84E4-47EC-9405-656674D7A286}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExtensionMetodos", "ExtensionMetodos\ExtensionMetodos.csproj", "{E139D1A5-1A55-4E59-9EAB-E5301EA7D83B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TipoENUM", "TipoENUM\TipoENUM.csproj", "{F95B74B9-118E-4AA4-9A61-4EAC37AD140B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +35,22 @@ Global
 		{8FA6D2F4-DFA4-4B68-AC27-AAD639462064}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8FA6D2F4-DFA4-4B68-AC27-AAD639462064}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8FA6D2F4-DFA4-4B68-AC27-AAD639462064}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B13C93C-A660-4145-A8B5-89BACCA6363E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B13C93C-A660-4145-A8B5-89BACCA6363E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B13C93C-A660-4145-A8B5-89BACCA6363E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B13C93C-A660-4145-A8B5-89BACCA6363E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CA98308-84E4-47EC-9405-656674D7A286}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CA98308-84E4-47EC-9405-656674D7A286}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CA98308-84E4-47EC-9405-656674D7A286}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CA98308-84E4-47EC-9405-656674D7A286}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E139D1A5-1A55-4E59-9EAB-E5301EA7D83B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E139D1A5-1A55-4E59-9EAB-E5301EA7D83B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E139D1A5-1A55-4E59-9EAB-E5301EA7D83B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E139D1A5-1A55-4E59-9EAB-E5301EA7D83B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F95B74B9-118E-4AA4-9A61-4EAC37AD140B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F95B74B9-118E-4AA4-9A61-4EAC37AD140B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F95B74B9-118E-4AA4-9A61-4EAC37AD140B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F95B74B9-118E-4AA4-9A61-4EAC37AD140B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
