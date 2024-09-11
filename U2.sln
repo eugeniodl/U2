@@ -9,13 +9,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Empleado", "Empleado\Emplea
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vector3DForm", "Vector3DForm\Vector3DForm.csproj", "{91E074FA-046A-4E42-8526-9E72D105862B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClasesMetodosEstaticos", "ClasesMetodosEstaticos\ClasesMetodosEstaticos.csproj", "{A266E8B7-C248-4149-84FB-380293113257}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClasesMetodosEstaticos", "ClasesMetodosEstaticos\ClasesMetodosEstaticos.csproj", "{A266E8B7-C248-4149-84FB-380293113257}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionMetodos", "ExtensionMetodos\ExtensionMetodos.csproj", "{1FCB0445-504C-407B-B7C5-A665DA2EC5DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExtensionMetodos", "ExtensionMetodos\ExtensionMetodos.csproj", "{1FCB0445-504C-407B-B7C5-A665DA2EC5DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClasesParciales", "ClasesParciales\ClasesParciales.csproj", "{31E2331C-8A08-49E6-9073-71FEBE470CB3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClasesParciales", "ClasesParciales\ClasesParciales.csproj", "{31E2331C-8A08-49E6-9073-71FEBE470CB3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TipoENUM", "TipoENUM\TipoENUM.csproj", "{63F370A8-3706-4691-87D4-8A31342473D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TipoENUM", "TipoENUM\TipoENUM.csproj", "{63F370A8-3706-4691-87D4-8A31342473D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculateSquare", "CalculateSquare\CalculateSquare.csproj", "{C42A9326-B36D-4B6A-91FA-49459DAFAAE8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{63F370A8-3706-4691-87D4-8A31342473D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63F370A8-3706-4691-87D4-8A31342473D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{63F370A8-3706-4691-87D4-8A31342473D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C42A9326-B36D-4B6A-91FA-49459DAFAAE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C42A9326-B36D-4B6A-91FA-49459DAFAAE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C42A9326-B36D-4B6A-91FA-49459DAFAAE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C42A9326-B36D-4B6A-91FA-49459DAFAAE8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
