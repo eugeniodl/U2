@@ -1,4 +1,13 @@
-﻿
+﻿var order = new Order
+{
+    OrderId = 123,
+    Status = OrderStatus.Pending
+};
+
+Console.WriteLine(order);
+
+order.UpdateStatus(OrderStatus.Processing);
+Console.WriteLine(order);
 
 
 public enum OrderStatus
