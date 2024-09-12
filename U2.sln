@@ -9,15 +9,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Empleado", "Empleado\Emplea
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vector3DForm", "Vector3DForm\Vector3DForm.csproj", "{1F7DEE6F-59F2-43B8-A4A2-39B961C44F01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClasesMetodosEstaticos", "ClasesMetodosEstaticos\ClasesMetodosEstaticos.csproj", "{84DEAF6C-DF30-44D3-A163-5DEF54A1A7FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClasesMetodosEstaticos", "ClasesMetodosEstaticos\ClasesMetodosEstaticos.csproj", "{84DEAF6C-DF30-44D3-A163-5DEF54A1A7FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionMetodos", "ExtensionMetodos\ExtensionMetodos.csproj", "{69B2040D-3278-40CF-BC50-D2F5B589170B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExtensionMetodos", "ExtensionMetodos\ExtensionMetodos.csproj", "{69B2040D-3278-40CF-BC50-D2F5B589170B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClasesParciales", "ClasesParciales\ClasesParciales.csproj", "{D60E2BBE-035E-47B4-8843-6C1E43F8A131}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClasesParciales", "ClasesParciales\ClasesParciales.csproj", "{D60E2BBE-035E-47B4-8843-6C1E43F8A131}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TipoENUM", "TipoENUM\TipoENUM.csproj", "{6F258BA9-F1E4-4CF3-AC10-7C48FDAEC36C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TipoENUM", "TipoENUM\TipoENUM.csproj", "{6F258BA9-F1E4-4CF3-AC10-7C48FDAEC36C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculateSquare", "CalculateSquare\CalculateSquare.csproj", "{F27F3800-E35B-4ACF-9B8A-0B7985DA6E36}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculateSquare", "CalculateSquare\CalculateSquare.csproj", "{F27F3800-E35B-4ACF-9B8A-0B7985DA6E36}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Anotaciones", "..\..\U2\Anotaciones\Anotaciones.csproj", "{A43FE079-98A8-47E3-9E6F-7C47A3CBE3A6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{F27F3800-E35B-4ACF-9B8A-0B7985DA6E36}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F27F3800-E35B-4ACF-9B8A-0B7985DA6E36}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F27F3800-E35B-4ACF-9B8A-0B7985DA6E36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A43FE079-98A8-47E3-9E6F-7C47A3CBE3A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A43FE079-98A8-47E3-9E6F-7C47A3CBE3A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A43FE079-98A8-47E3-9E6F-7C47A3CBE3A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A43FE079-98A8-47E3-9E6F-7C47A3CBE3A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

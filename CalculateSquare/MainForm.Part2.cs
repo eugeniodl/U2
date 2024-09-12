@@ -8,7 +8,6 @@ namespace CalculateSquare
 {
     public partial class MainForm
     {
-
         private void InitializeControls()
         {
             lblMessage = new Label
@@ -37,12 +36,20 @@ namespace CalculateSquare
             btnCalculateSquare.Click += btnCalculateSquare_Click;
 
             // Aplicar un estado al botón
-            SetButtonState(ButtonState.Disabled);
+            SetButtonState(ButtonState.Enabled);
         }
 
         private void btnCalculateSquare_Click(object? sender, EventArgs e)
         {
-            
+            if (int.TryParse(txtInput.Text, out int number))
+            {
+                int result = MathHelper.Square(number);
+                MessageBox.Show($"The square of {number} is {result}");
+            }
+            else
+            {
+                MessageBox.Show("Please enter a valid number.");
+            }
         }
 
         private void SetButtonState(ButtonState state)
