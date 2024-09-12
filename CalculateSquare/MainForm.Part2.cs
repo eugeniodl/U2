@@ -41,7 +41,15 @@ namespace CalculateSquare
         private void btnCalculateSquare_Click(object? sender, 
             EventArgs e)
         {
-            
+            if (int.TryParse(txtInput.Text, out int number))
+            {
+                int result = MathHelper.Square(number);
+                MessageBox.Show($"The square of {number} is {result}");
+            }
+            else
+            {
+                MessageBox.Show("Please enter a valid number.");
+            }
         }
 
         private void SetButtonState(ButtonState state)
