@@ -19,7 +19,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TipoENUM", "TipoENUM\TipoEN
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculateSquare", "CalculateSquare\CalculateSquare.csproj", "{72C2E1EC-9A39-48AC-814D-B249716EFA41}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Anotaciones", "..\..\U2\Anotaciones\Anotaciones.csproj", "{87DB1C67-66B8-4E07-B636-814644C22563}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Anotaciones", "Anotaciones\Anotaciones.csproj", "{AD2B1431-3FBA-470F-B41C-B105A5B00554}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,10 +59,10 @@ Global
 		{72C2E1EC-9A39-48AC-814D-B249716EFA41}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72C2E1EC-9A39-48AC-814D-B249716EFA41}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72C2E1EC-9A39-48AC-814D-B249716EFA41}.Release|Any CPU.Build.0 = Release|Any CPU
-		{87DB1C67-66B8-4E07-B636-814644C22563}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{87DB1C67-66B8-4E07-B636-814644C22563}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{87DB1C67-66B8-4E07-B636-814644C22563}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{87DB1C67-66B8-4E07-B636-814644C22563}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD2B1431-3FBA-470F-B41C-B105A5B00554}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD2B1431-3FBA-470F-B41C-B105A5B00554}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD2B1431-3FBA-470F-B41C-B105A5B00554}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD2B1431-3FBA-470F-B41C-B105A5B00554}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
